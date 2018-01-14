@@ -59,7 +59,7 @@ has a good usability as it requires two clicks to run.
 
 
 
-##### References
+**References**
 
 Istvan, S., 2012. Comparison Of The Most Popular Open-Source GIS Software In The Field Of Landscape Ecology. *AGD Landscape & Environment*, 6(1), pp. 76-94.
 
