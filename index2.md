@@ -37,7 +37,7 @@ has a high cohesion given that the coordinates of the agents, and all the
 methods are in the Agent class.
 
 Fig. 1:
-![alt text](C:\Users\user\Downloads\Class Diagram for ABM - Page 1.png "UML of the Agent Based Model")
+![alt text]("C:\Users\user\Downloads\Class Diagram for ABM - Page 1.png" "UML of the Agent Based Model")
 
 
 
