@@ -60,7 +60,7 @@ has a good usability as it requires two clicks to run.
 
 
 **References**
-
+---
 Istvan, S., 2012. Comparison Of The Most Popular Open-Source GIS Software In The Field Of Landscape Ecology. *AGD Landscape & Environment*, 6(1), pp. 76-94.
 
 Krämer, M. & Senner, I., 2015. A Modular Software Architecture for Processing of big Geospatial Data in the Cloud. *Computers & Graphics*, Volume 49, pp. 69-81.
