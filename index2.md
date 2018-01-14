@@ -44,7 +44,7 @@ and functional program. It also separates and isolate critical variables,
 methods, and functions into a subclass, thus protecting the critical 
 components of the program from users, without negating the purpose and 
 aims the program was designed to achieve. Given that the program was 
-coded in Spyder, all syntaxerrors were spotted, and eliminated. Similarly, 
+coded in Spyder, all syntax errors were spotted, and eliminated. Similarly, 
 all issues with runtime logic were spotted, and eliminated.
 
 The code was written to be a double-click-to-run program, the user does 
