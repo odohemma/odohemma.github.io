@@ -14,9 +14,10 @@ every move an agent makes, the environment is reduced by ten units.
 
 The model has two variables; agents, and environment. The agents are 
 generated using random coordinates. The environment is a 300 by 300 
-raster grid created from 'in.txt', a csv file of 300 rows and 300 
-columns of numeric data made available by Dr Andy Evans on the practicals 
-section of the University of Leeds' Geography Programming Courses website. 
+raster grid created from ['in.txt'](https://odohemma.github.io/in.txt), 
+a csv file of 300 rows and 300 columns of numeric data made available by 
+Dr Andy Evans on the practicals section of the University of Leeds' 
+Geography Programming Courses website. 
 
 A loose coupling, and high cohesion method was adopted for the program. 
 The loose coupling approach integrates the functionality of one tool into 
@@ -48,7 +49,7 @@ coded in Spyder, all syntax errors were spotted, and eliminated. Similarly,
 all issues with runtime logic were spotted, and eliminated.
 
 The code was written to be a double-click-to-run program, the user does 
-not need to input data for the program to run. The usbility of the 
+not need to input data for the program to run. The usability of the 
 program was designed to be as effective, and efficient as possible. 
 Though it is a double-click-to-run program, users can vary the number 
 of agents, and the number of times the agents move and eat by varying 
@@ -77,3 +78,4 @@ Wittman, J., 2000. Simulation Model and Geographic Information System : Coupling
 
 
 [here](https://odohemma.github.io/model.py)
+['in.txt'](https://odohemma.github.io/in.txt)
