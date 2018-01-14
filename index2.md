@@ -44,6 +44,5 @@ Fig. 1:
 
 
 
-======
 
 [here](https://odohemma.github.io/model.py)
