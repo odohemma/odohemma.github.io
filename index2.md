@@ -1,5 +1,5 @@
 ---
-title: Test
+title: GEOG 5991 Assignment 1
 ---
 
 
@@ -69,13 +69,3 @@ Krämer, M. & Senner, I., 2015. A Modular Software Architecture for Processing o
 von Hohenrain LU, D. I., 2006. *IPODLAS A Framework for Coupling Temporal Simulation Systems, Virtual Reality, and Geographic Information System*. Ph.D. thesis: University of Zurich.
 
 Wittman, J., 2000. Simulation Model and Geographic Information System : Coupling Alternatives at the Practical Example. In: A. Cremers & K. Greve, eds. *Umweltinformatik*. Metropolis-Verlag, Bonn: Internationales Symposium, pp. 45-48.
-
-
-
-
-
-
-
-
-[here](https://odohemma.github.io/model.py)
-['in.txt'](https://odohemma.github.io/in.txt)
