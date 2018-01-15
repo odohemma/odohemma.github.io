@@ -48,7 +48,7 @@ aims the program was designed to achieve. Given that the program was
 coded in Spyder, all syntax errors were spotted, and eliminated. Similarly, 
 all issues with runtime logic were spotted, and eliminated.
 
-The code was written to be a double-click-to-run program, the user does 
+The code is a double-click-to-run program, the user does 
 not need to input data for the program to run. The usability of the 
 program was designed to be as effective, and efficient as possible. 
 Though it is a double-click-to-run program, users can vary the number 

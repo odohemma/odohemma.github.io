@@ -1,20 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 17 08:28:36 2017
+This creates 10 agents that move and eat 100 times in random direction.
+It also produces an animation of the agents in motion.
 
-@author: user
+Instructions:
+Run agentframework.py before you run this file.
 """
 
 import random
 import operator
-import matplotlib.pyplot
-import agentframework
 import csv
+import matplotlib.pyplot
+import matplotlib.animation
+import agentframework
 
 
-
-
-
+# This imports a csv file and reads it into an environmnet list in 2D.
 environment = []
 with open('in.txt', newline='') as f:
     dataset = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
@@ -30,7 +31,9 @@ num_of_iterations = 100
 neighbourhood = 20
 agents = []
 
-# Make the agents (the agents are represented as objects in the list).
+
+# This makes and populates the agents' list.
+# The agents are represented as objects in the list.
 for i in range(num_of_agents):
     agents.append(agentframework.Agent(environment, agents))
   
@@ -39,8 +42,10 @@ for i in range(num_of_agents):
 for j in range(num_of_iterations):
     for i in range(num_of_agents):
         agents[i].move()
-        agents[i].eat() #agents eats 10 units of the environment & store 10 units of the environment
+# The agents eats and stores 10 units of the environment.
+        agents[i].eat()                        
         agents[i].share_with_neighbours(neighbourhood)
+
 
 # Plots the agents
 matplotlib.pyplot.xlim(0, 99)
@@ -51,27 +56,7 @@ for i in range(num_of_agents):
 matplotlib.pyplot.show()
 
 
-        
-
-print('hello' '\n' 'world')
-
-class A():
-    def prt(self):
-        print("hi")
-
-def prrrt():
-    print("changed") 
-a = A()
-a.prt()
-a.prt = prrrt
-a.prt()
-
-
-
-
-import matplotlib.pyplot
-import matplotlib.animation 
-
+# An animation of the moving agents is created here
 num_of_agents = 10
 num_of_iterations = 100
 agents = []
@@ -112,6 +97,9 @@ animation = matplotlib.animation.FuncAnimation(fig, update, interval=1,
    repeat=False, frames=num_of_iterations)
 
 matplotlib.pyplot.show()
+
+
+
 
 
 
