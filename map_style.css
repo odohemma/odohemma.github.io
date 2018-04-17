@@ -1,0 +1,17 @@
+body { 
+	background-color: white;
+    color: black;
+    font-size: small;
+    font-family: Lucida Sans Unicode,Arial,Helvetica,sans-serif;
+}
+
+.gmap {
+	margin: 5px;
+    border: thin solid black;
+    float: right;
+}
+
+p {
+    border: 1px solid powderblue;
+    margin: 3px;
+}

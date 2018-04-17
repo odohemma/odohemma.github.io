@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script type="text/javascript" src="jscoord-1.1.1.js"></script>
+    <script type="text/javascript" src="vet_locations.js"></script>
+    <script type="text/javascript" src="map_setup_vets.js"></script>
+    <link rel="stylesheet" media="all" href="map_style.css" type="text/css">
+    <title>Vet Clinics Map</title>
+  </head>
+
+  <body onload="initialize()">
+    <h1>UK Veterinary Clinics Map</h1>
+    <p>
+
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div class="gmap" id="map_canvas" style="height: 500px; width: 45%"></div>
+    <p>
+      <h2>Veterinary Clinics</h2>
+    </p>
+	Veterinary professionals carry out their practice in veterinary clinics.
+	Veterinary professionals are saddled with administering veterinary 
+	treatment. Veterinary medicine deals with the prevention, diagnosis 
+	and treatment of disease, disorder and injury in non-human animals. 
+	Veterinary professionals monitor and control zoonotic diseases and 
+	food safety; maintain food supply through livestock health monitoring 
+	and treatment; and maintain mental health of animals (Wikipedia, 2018). 
+<br>
+    <p>
+      <h3>Data source</h3>
+    </p>
+	<ul>
+    <li>All files, excluding the map icon, were provided by Rachel Oldroyd 
+	through a zipped folder accessed through the University of Leeds’ 
+	web based Minerva.
+	<li>The map icon was created by Nicolas Mollet and can be accessed 
+	<a href="https://mapicons.mapsmarker.com/author/nico.mollet/">here</a>.<br>
+	</ul>
+    <p>
+      <h3>The map</h3>
+    </p>
+    The map on the right shows the locations of over 1950 Veterinary Clinics 
+	within the UK. The postcode of the veterinary clinic is shown when a marker 
+	(representing a veterinary clinic) is clicked.<p>
+	Author: Emmanuel I. Odoh, 2018.
+	</p>
+      <h3>Reference</h3>	
+	Wikipedia, 2018. Veterinary medicine. [Online] 
+	Available at: https://en.wikipedia.org/wiki/Veterinary_medicine
+	[Accessed 2 April 2018].
+  </body>
+
+</html>
