@@ -1,18 +1,22 @@
 [
   {
     "id": 1,
-    "website": "https://display-color.netlify.app",
-  }, 
+    "thumbnail": "https://odohemma.github.io/GetMemeImageReactProject.jpg",
+    "website": "https://display-color.netlify.app"
+  },
   {
     "id": 2,
-    "website": "https://get-meme-images.netlify.app",
+    "thumbnail": "https://odohemma.github.io/DisplayColourReactProject.jpg",
+    "website": "https://get-meme-images.netlify.app"
   },
   {
     "id": 3,
-    "website": "https://coruscating-fox-ca0946.netlify.app",
+    "thumbnail": "https://odohemma.github.io/ReactRouterHNGProject.jpg",
+    "website": "https://coruscating-fox-ca0946.netlify.app"
   },
   {
     "id": 4,
-    "website": "https://teal-pony-63446b.netlify.app",
+    "thumbnail": "https://odohemma.github.io/MyTravelJournalReactProject.jpg",
+    "website": "https://teal-pony-63446b.netlify.app"
   }
 ]
